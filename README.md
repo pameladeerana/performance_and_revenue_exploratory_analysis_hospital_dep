@@ -75,7 +75,7 @@ Simple flow: **CSV → MySQL → Queries → CSV Results → Python → Excel �
 
 ## 4. Files
 
-- `README.md` - This file
+- `README.md` - project overview
 - `hospital_records.csv` - raw data
 - `hospital_records_queries` - SQL file from MySQL queries
 - `hospital_results.PDF` - results with insights
