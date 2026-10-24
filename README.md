@@ -2,14 +2,14 @@
 
 Exploring patient age demographics, efficiency, and revenue by department using sample anonymized hospital data records.
 
-**Database Name:** `hospital_db`  
-**Table:** `hospital_records` (`record_id, patient_id, patient_age, doctor_name, department, treatment_cost, medicine_cost, length_of_stay`)
+**Database Name:** hospital_db  
+**Table:** hospital_records (record_id, patient_id, patient_age, doctor_name, department, treatment_cost, medicine_cost, length_of_stay)
 
 ---
 
 ## 1. Database Schema
 
-**Source:** CSV → MySQL Workbench Table Data Import Wizard
+CSV → MySQL Workbench Table Data Import Wizard
 
 **Table: hospital_records**
 
