@@ -7,7 +7,7 @@ Exploring patient age demographics, efficiency, and revenue by department using 
 
 ---
 
-## 1. Database Schema
+## Database Schema
 
 CSV → MySQL Workbench Table Data Import Wizard
 
@@ -26,7 +26,7 @@ CSV → MySQL Workbench Table Data Import Wizard
 
 ---
 
-## 2. Business Questions
+## 1. Business Questions
 
 This study answers 8 questions about hospital performance and revenue.
 
@@ -46,7 +46,7 @@ This study answers 8 questions about hospital performance and revenue.
 
 ---
 
-## 3. Workflow
+## 2. Workflow
 
 1.  **Data Gathering:** Data was already provided (sample anonymized hospital records), directly from CSV file.
 2.  **Upload to MySQL:** CSV file uploaded to MySQL Workbench (`hospital_db.hospital_records`) via Table Data Import Wizard.
@@ -61,19 +61,19 @@ Simple flow: **CSV → MySQL → Queries → CSV Results → Python → Excel �
 
 ---
 
-## 4. Key Insights 
+## 3. Key Insights 
 
 **A. Performance:** Hospital is busiest in Geriatrics (20 patients) and Cardiology (18), but Surgery (11 days avg) and Oncology (9 days avg) patients stay longest. Dr. Villanueva is the busiest doctor (20 cases).
 
 **B. Revenue:** Oncology (₱613K) and Cardiology make the most money even though Geriatrics has more patients. That means Geriatrics has many patients but cheaper cases.
 
-**C.Combined - Performance & Revenue :** Cost goes up as age gets higher but drops at old ages. Top 10 most expensive are age 43-65. Patients in their 40s-60s stay longer and cost more.
+**C. Combined - Performance & Revenue :** Cost goes up as age gets higher but drops at old ages. Top 10 most expensive are age 43-65. Patients in their 40s-60s stay longer and cost more.
 
 **Overall Summary:** Older patients (40-65) are the most valuable - they stay longer and pay more. Short stays make more money per day, but long stays (Surgery, Oncology) make more total money.
 
 ---
 
-## 5. Files
+## 4. Files
 
 - `README.md` - This file
 - `hospital_records.csv` - raw data
@@ -83,7 +83,7 @@ Simple flow: **CSV → MySQL → Queries → CSV Results → Python → Excel �
 
 ---
 
-## 6. Tools Used
+## 5. Tools Used
 
 - MySQL Workbench - database & queries
 - Python (Google Colab, Pandas) - excel merging
